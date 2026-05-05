@@ -17,10 +17,6 @@ jobs:
         sudo apt update
         sudo apt install -y python3 python3-pip git zip curl
 
-    - name: Integrate KSU
-      run: |
-        curl -L https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/next/kernel/setup.sh -o keseu.sh
-
 
     - name: Run build script
       run: |
