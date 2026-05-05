@@ -20,7 +20,7 @@ jobs:
 
     - name: Integrate KernelSU
       run: |
-      curl -LSs "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/next/kernel/setup.sh" | bash -s next
+      curl -LSs https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/next/kernel/setup.sh | bash -s next
 
 
     - name: Run build script
