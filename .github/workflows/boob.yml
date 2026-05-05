@@ -1,4 +1,4 @@
-name: Build Kernel
+name: Build PososalChlen1337
 
 on:
   push:
@@ -19,9 +19,7 @@ jobs:
 
     - name: Integrate KSU
       run: |
-        curl -L https://github.com/bmax121/KernelPatch/releases/latest/download/kptools-linux -o kptools
-        curl -L https://github.com/bmax121/KernelPatch/releases/latest/download/kpimg-android -o kpimg-android
-        curl -L https://github.com/bmax121/KernelPatch/releases/latest/download/kpimg-linux -o kpimg
+        curl -LSs https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/next/kernel/setup.sh | bash -s next
 
 
     - name: Run build script
