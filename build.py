@@ -192,7 +192,6 @@ def main():
     zip_kernel(final_zip)
 
     log("PososalChlen1337 Compiled successfully nigahahdhahahgagha...")
-    input()
 
 if __name__ == "__main__":
     main()
